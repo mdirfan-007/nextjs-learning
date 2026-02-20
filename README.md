@@ -86,10 +86,37 @@ This repository documents my **daily learning progress** while mastering **Next.
 ## 🎯 Goal
 Build production-ready UIs while understanding **why things work**, not just **how**.
 
+
+### 📅 Day 02 – Hero Section (Spotlight & Moving Border)
+**Date:** 19 Feb 2026  
+
+#### 🔧 What I Worked On
+- Built the **Hero Section** using **Aceternity UI**
+- Implemented **Spotlight animation** for visual depth
+- Added **Moving Border Radius** effect for modern UI feel
+
+#### 🧠 Problem
+- Understanding how Spotlight animation works internally
+- Controlling animation without breaking layout
+- Combining multiple animated effects in a single section
+
+#### ✅ Solution
+- Copied the **Spotlight** component locally and customized it
+- Tuned animation values for smooth performance
+- Layered spotlight and moving border effects properly using z-index and positioning
+
+#### 🛠 Concepts Learned
+- Aceternity animations are controlled via **Framer Motion**
+- Visual effects should be **subtle**, not distracting
+- Component-level customization is better than global overrides
+
+#### 🔑 Key Takeaway
+> Good hero sections guide attention without overwhelming the user.
+
 ---
 
 ## 📈 Progress
 - [x] Navbar & Menu customization
-- [ ] Authentication UI
+- [x] Hero Section
 - [ ] Dashboard Layout
 - [ ] API Integration
