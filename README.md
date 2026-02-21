@@ -115,8 +115,37 @@ Build production-ready UIs while understanding **why things work**, not just **h
 
 ---
 
+### 📅 Day 03 – Feature Courses Section (Background Gradient & Data Fetch)
+**Date:** 19 Feb 2026  
+
+#### 🔧 What I Worked On
+- Built the **Feature Courses** section
+- Implemented **Background Gradient** using **Aceternity UI**
+- Added **Moving Border Radius** for featured cards
+- Fetched course data from a **local JSON file** using TypeScript
+- Animated course cards while rendering dynamic data
+
+#### 🧠 Problem
+- Structuring JSON data with proper TypeScript types
+- Rendering animated UI components from dynamic data
+- Keeping animations smooth while mapping over fetched data
+
+#### ✅ Solution
+- Defined strict **TypeScript interfaces** for course data
+- Used `.map()` to render feature cards safely
+- Combined Aceternity UI animations with data-driven rendering
+- Ensured clean component separation and reusable UI logic
+
+#### 🛠 Concepts Learned
+- TypeScript improves safety when working with JSON data
+- Animation + dynamic rendering requires controlled layout
+- Aceternity UI components are meant to be customized locally
+
+#### 🔑 Key Takeaway
+> Well-typed data makes animated UIs easier to scale and maintain.
+
 ## 📈 Progress
 - [x] Navbar & Menu customization
 - [x] Hero Section
-- [ ] Dashboard Layout
+- [x] Feature Courses Section
 - [ ] API Integration

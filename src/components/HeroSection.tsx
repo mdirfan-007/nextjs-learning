@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import { Button } from "./ui/moving-border";
-import { Spotlight } from "@/app/components/ui/Spotlight";
+import { Spotlight } from "@/components/ui/Spotlight";
 
 import Link from "next/link";
 
 
 function HeroSection() {
   return (
-    <div className="hero-section flex flex-col items-center justify-center h-screen  text-white">
+    <div className="hero-section overflow-hidden relative flex flex-col items-center justify-center min-h-screen  text-white">
         <Spotlight
         className="-top-40 left-0 md:-top-20 md:left-60"
         fill="white"
