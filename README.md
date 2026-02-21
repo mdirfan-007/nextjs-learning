@@ -88,7 +88,7 @@ Build production-ready UIs while understanding **why things work**, not just **h
 
 
 ### 📅 Day 02 – Hero Section (Spotlight & Moving Border)
-**Date:** 19 Feb 2026  
+**Date:** 20 Feb 2026  
 
 #### 🔧 What I Worked On
 - Built the **Hero Section** using **Aceternity UI**
@@ -116,7 +116,7 @@ Build production-ready UIs while understanding **why things work**, not just **h
 ---
 
 ### 📅 Day 03 – Feature Courses Section (Background Gradient & Data Fetch)
-**Date:** 19 Feb 2026  
+**Date:** 21 Feb 2026  
 
 #### 🔧 What I Worked On
 - Built the **Feature Courses** section
