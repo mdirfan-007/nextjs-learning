@@ -1,5 +1,6 @@
 import FeatureCourse from "@/components/FeatureCourse";
 import HeroSection from "@/components/HeroSection";
+import StickySection from "@/components/StickySection";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
      
       <HeroSection/>
       <FeatureCourse/>
+      <StickySection/>
     </main>
   );
 }
