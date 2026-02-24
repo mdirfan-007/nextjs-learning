@@ -1,5 +1,6 @@
 import FeatureCourse from "@/components/FeatureCourse";
 import HeroSection from "@/components/HeroSection";
+import Instructers from "@/components/Instructers";
 import MovingCards from "@/components/MovingCards";
 import StickySection from "@/components/StickySection";
 import Webinar from "@/components/Webinar";
@@ -14,6 +15,7 @@ export default function Home() {
       <StickySection/>
       <MovingCards/>
       <Webinar/>
+      <Instructers/>
     </main>
   );
 }
