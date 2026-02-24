@@ -2,6 +2,7 @@ import FeatureCourse from "@/components/FeatureCourse";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingCards";
 import StickySection from "@/components/StickySection";
+import Webinar from "@/components/Webinar";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <FeatureCourse/>
       <StickySection/>
       <MovingCards/>
+      <Webinar/>
     </main>
   );
 }
