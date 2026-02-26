@@ -1,8 +1,7 @@
 "use client";
- 
-import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
+import React from "react";
+import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const testimonials = [
   {
@@ -38,17 +37,18 @@ const testimonials = [
 
 const MovingCards = () => {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-purple-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <h2 className="text-3xl font-bold text-center mb-10">Hear our Harmony: Voice for success</h2>
-      
+    <div className="min-h-[40rem] h-auto py-12 px-4 rounded-md flex flex-col antialiased bg-purple-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 md:mb-10 px-4 max-w-xs sm:max-w-md md:max-w-2xl">
+        Hear our Harmony: Voice for success
+      </h2>
+
       <InfiniteMovingCards
         items={testimonials}
         direction="left"
         speed="fast"
       />
-
     </div>
-  )
-}
+  );
+};
 
-export default MovingCards
+export default MovingCards;

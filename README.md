@@ -148,4 +148,3 @@ Build production-ready UIs while understanding **why things work**, not just **h
 - [x] Navbar & Menu customization
 - [x] Hero Section
 - [x] Feature Courses Section
-- [ ] API Integration
